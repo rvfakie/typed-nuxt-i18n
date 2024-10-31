@@ -1,0 +1,39 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules
+
+# coverage outputs
+coverage
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# local env files
+.env.local
+.env.*.local
+.env
+nginx.env
+nuxt.env
+
+# Ignore custom npmrc
+.npmrc
+
+# Output of 'npm pack'
+*.tgz
+
+# IDE / Editor
+.idea
+.vscode
